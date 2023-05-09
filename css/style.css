@@ -28,6 +28,10 @@ body{
     display: flex;
     flex-direction: row-reverse;
 }
+.my-row-between{
+    display: flex;
+    justify-content: space-between;
+}
 .row-1{
     padding: 5px;
      
@@ -50,6 +54,18 @@ body{
 .my-colomn-small{
     width: 40%;
 }
+.my-colomn-big-2{
+    width: 60%;
+}
+.my-colomn-small-2{
+    width: 40%;
+}
+.logo-cell{
+    width: 5%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
 
 
 
@@ -82,6 +98,9 @@ DEBUG
 .debug .cell{    
     border: 1px dashed black;
 }
+.debug .cell-2{
+    border: 1px dashed white;
+}
 .debug .bg-white{
     background-color: white;
     height: 400px;
@@ -112,3 +131,34 @@ DEBUG
     background-color: #228b22;
     height: 600px;
 }     
+.debug .bg-black{
+    background-color: black;
+    height: 800px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-bottom: 3px solid #d3d3d3;
+}
+.debug .my-colomn-big-2{
+    background-color: #20b2aa;
+    height: 700px;
+}
+.debug .my-colomn-small-2{
+    background-color: #f08080;
+    height: 700px;
+}
+.debug .high{
+    height: 700px;
+}
+.debug .bg-black-2{
+    background-color: black;
+    height: 125px;
+    padding-top: 45px;
+}
+.debug .footer-bottom{
+    background-color: #7fffd4;
+    height: 80px;
+}
+.debug .bottons{
+    background-color: #ffc0cb;
+    height: 30px;
+}

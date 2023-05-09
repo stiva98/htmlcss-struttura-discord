@@ -13,16 +13,20 @@ GENERAL
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
-.cointainer{
+.container{
     max-width: 1200px;
     margin: 0 auto;
 }
-.cointainer-2{
+.container-2{
     max-width: 1000px;
     margin: 0 auto;
 }
 .my-row{
     display: flex;
+}
+.my-row-reverse{
+    display: flex;
+    flex-direction: row-reverse;
 }
 .row-1{
     padding: 5px;
@@ -40,9 +44,15 @@ body{
 .small-cell{    
     width: 25%;
 }
-.cell{    
-    border: 1px dashed black;
+.my-colomn-big{
+    width: 60%;
 }
+.my-colomn-small{
+    width: 40%;
+}
+
+
+
 /*
 DEBUG
 */
@@ -59,13 +69,37 @@ DEBUG
     padding-bottom: 15px;
 }
 .debug .header-bottom{
-    background-color: #00008b;
+    background-color:#00008b;
     height: 400px;
-    margin-top: 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 3px solid #add8e6;
+}
+.debug .bg-little{
+    background-color:#ee82ee;
+    height: 300px;
+}
+.debug .cell{    
+    border: 1px dashed black;
+}
+.debug .bg-white{
+    background-color: white;
+    height: 400px;
     padding-top: 50px;
     padding-bottom: 50px;
 }
-.debug .bg-little{
-    background-color: #ee82ee;
+.debug .bg-gray{
+    background-color: #d3d3d3;
+    height: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.debug .my-colomn-big{
+    background-color: #1e90ff;
     height: 300px;
 }
+.debug .my-colomn-small{
+    background-color: #ffc0cb;
+    height: 300px;
+}
+       

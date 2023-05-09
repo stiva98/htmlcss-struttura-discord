@@ -102,4 +102,13 @@ DEBUG
     background-color: #ffc0cb;
     height: 300px;
 }
-       
+.debug .bg-gray-2{
+    background-color: #d3d3d3;
+    height: 800px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.debug .bg-green{
+    background-color: #228b22;
+    height: 600px;
+}     
